@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    background: #6b03ff;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+  }
+.title{
+    position: relative;
+    top: -250px;    
+    right: -515px;
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    text-decoration: underline white 3px;
+    color: #00e372;
+}
+
+  .gameboard {
+    height: 100vh;
+    width: 100vh;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    max-height: 60vh;
+    max-width: 60vh;
+    border: white solid 4px;
+    position: relative;
+    right: -180px;
+    top: 20px;
+    cursor: pointer;
+  }
+
+  .color {
+    width: 50%;
+    height: 50%;
+    display: inline-block;
+  }
+
+  .left {
+    float: left;
+  }
+
+  .right {
+    float: left;
+  }
+
+  .celeste {
+    background: #22a6b3;
+  }
+
+  .celeste.light {
+    background: #7ed6df;
+  }
+
+  .violeta {
+    background: #be2edd;
+  }
+
+  .violeta.light {
+    background: #e056fd;
+  }
+
+  .naranja {
+    background: #f0932b;
+  }
+
+  .naranja.light {
+    background: #ffbe76;
+  }
+
+  .verde {
+    background: #6ab04c;
+  }
+
+  .verde.light {
+    background: #badc58;
+  }
+
+  .btn-start {
+    width: 400px;
+    height: 100px;
+    background: #ecf0f1;
+    border-radius: 40%;
+    border: gray solid 2px;
+    color: #2c3e50;
+    font-size: 2.5rem;
+    position: absolute;
+    top: calc(50% - 50px);
+    left: calc(50% - 200px);
+    font-family: 'Arial';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    outline: none;
+  }
+
+  .hide {
+    display: none;
+  }
+
+ 
